@@ -69,13 +69,6 @@ receptioneaza:
 - clientul a trimis "subscribe topic SF"/"unsubscribe topic", orice alta
 comanda este invalida (serverul trimite mesaj de eroare in acest caz).
 
-OBSERVATII:
-Aplicatia ruleaza cum trebuie in mare parte: la rularea mode manual / random
-este totul ok. In schimb, cand rulez mode all_once, uneori clientii primesc
-bine absolut toate mesajele, alteori, doar o parte din ele. Nu am gasit o 
-explicatie pentru asta, credeam ca problema e TCP_NODELAY, dar dupa ce l-am 
-adaugat, nu prea s-a schimbat mare lucru.
-
 
 
 
